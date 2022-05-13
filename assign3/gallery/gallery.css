@@ -1,0 +1,11 @@
+.tran{
+    width: 50%; 
+    height: 30vh; 
+}
+.tran:hover{
+    width: 70%;
+    height: 40vh;
+    transition-property:  height width ;
+    transition-duration: 3s;
+
+}

@@ -1,0 +1,15 @@
+@keyframes widen {
+    from{width:10%}
+    to{width:30%}
+}
+#search{
+    height: 30px;
+}
+#search:focus{
+    animation: widen 1s forwards ;
+}
+.columns{
+    column-count: 3;
+    column-gap: 40px;
+    column-rule-style: dotted;
+}
